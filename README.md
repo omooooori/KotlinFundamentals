@@ -6,6 +6,12 @@
 
 ## Description
 
+<ul>
+  <li>How to use ConstraintLayout.</li>
+  <li>How to use style property to UI component.</li>
+  <li>How to use Chain for ConstraintLayout.</li>
+ </ul>
+
 [Google Code lab](https://codelabs.developers.google.com/codelabs/kotlin-android-training-constraint-layout/index.html?index=..%2F..android-kotlin-fundamentals#0)
 
 ## Author
