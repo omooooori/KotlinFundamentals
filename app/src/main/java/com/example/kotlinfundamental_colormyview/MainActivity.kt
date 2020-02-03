@@ -3,38 +3,16 @@ package com.example.kotlinfundamental_colormyview
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.service.autofill.TextValueSanitizer
 import android.view.View
-import android.widget.CheckBox
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
-import kotlinx.android.synthetic.main.activity_main.view.*
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
-    lateinit var checkBox: CheckBox
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val status = arrayOf(
-            "Color",
-            "Image")
-
-        checkBox = findViewById(R.id.checkbox)
-
-        checkBox.isChecked = false
-        checkBox.text = status[0]
-
-        checkBox.setOnClickListener(View.OnClickListener {
-            val check = checkBox.isChecked
-            if (check) {
-                checkBox.text = status[0]
-            } else {
-                checkBox.text = status[1]
-            }
-        })
 
         setListeners()
     }
@@ -47,6 +25,9 @@ class MainActivity : AppCompatActivity() {
             R.id.box_three_text -> view.setBackgroundColor(Color.BLUE)
             R.id.box_four_text -> view.setBackgroundColor(Color.MAGENTA)
             R.id.box_five_text -> view.setBackgroundColor(Color.BLUE)
+            R.id.button_red -> box_four_text.setBackgroundResource(R.color.my_red)
+            R.id.button_yellow -> box_three_text.setBackgroundResource(R.color.my_yellow)
+            R.id.button_green -> box_five_text.setBackgroundResource(R.color.my_green)
             else -> view.setBackgroundColor(Color.LTGRAY)
         }
     }
@@ -71,18 +52,29 @@ class MainActivity : AppCompatActivity() {
 
         val rootConstraintLayout: ConstraintLayout = findViewById(R.id.constraint_layout)
 
-        val clickableViews: List<View> =
-            listOf(boxOneText, boxTwoText, boxThreeText, boxFourText, boxFiveText, rootConstraintLayout)
+        val redButton: TextView = findViewById(R.id.button_red)
+        val greenButton: TextView = findViewById(R.id.button_green)
+        val yellowButton: TextView = findViewById(R.id.button_yellow)
 
-        val check = checkBox.isChecked
-        if (check) {
-            for (item in clickableViews) {
-                item.setOnClickListener { makeColored(it) }
-            }
-        } else {
-            for (item in clickableViews) {
-                item.setOnClickListener { makeResource(it) }
-            }
+        val clickableViews: List<View> =
+            listOf(
+                boxOneText,
+                boxTwoText,
+                boxThreeText,
+                boxFourText,
+                boxFiveText,
+                rootConstraintLayout,
+                redButton,
+                greenButton,
+                yellowButton
+            )
+
+        for (item in clickableViews) {
+            item.setOnClickListener { makeColored(it) }
         }
+
+//        for (item in clickableViews) {
+//            item.setOnClickListener { makeResource(it) }
+//        }
     }
 }
