@@ -26,11 +26,12 @@
         style="@style/whiteBox"
         android:layout_width="130dp"
         android:layout_height="130dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        app:layout_constraintTop_toBottomOf="@+id/box_one_text"
-        tools:layout_editor_absoluteX="16dp"
         android:text="@string/box_two"
-        app:fontFamily="@font/roboto" />
+        app:fontFamily="@font/roboto"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_one_text" />
 
     <TextView
         android:id="@+id/box_three_text"
@@ -76,5 +77,16 @@
         app:layout_constraintTop_toBottomOf="@+id/box_three_text"
         android:text="@string/box_five"
         android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/box_two_text"
+        android:text="@string/check_box_text_empty"
+        tools:text="@string/check_box_text"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
