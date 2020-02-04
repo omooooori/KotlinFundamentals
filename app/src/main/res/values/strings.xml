@@ -13,6 +13,8 @@
     \n\nI\'ll be happy to teach you how to make your own aquarium.
     \nYou should ask someone else about fishing, though.\n\n
     </string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
     <!-- DiceRoller -->
     <string name="button_text_roll">roll</string>
     <!-- ColorMyView -->
