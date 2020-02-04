@@ -1,4 +1,4 @@
-package com.example.kotlinfundamental_colormyview
+package com.example.kotlinfundamentals
 
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
