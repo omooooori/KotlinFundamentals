@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
+import androidx.navigation.findNavController
 import com.example.kotlinfundamentals.databinding.FragmentGameBinding
 
 class GameFragment : Fragment() {
@@ -84,9 +85,17 @@ class GameFragment : Fragment() {
                         binding.invalidateAll()
                     } else {
                         // We've won!  Navigate to the gameWonFragment.
+                        binding.submitButton.setOnClickListener {
+                            view.findNavController()
+                                .navigate(R.id.action_gameFragment_to_gameWonFragment)
+                        }
                     }
                 } else {
                     // Game over! A wrong answer sends us to the gameOverFragment.
+                    binding.submitButton.setOnClickListener {
+                        view.findNavController()
+                            .navigate(R.id.action_gameFragment_to_gameOverFragment2)
+                    }
                 }
             }
         }
