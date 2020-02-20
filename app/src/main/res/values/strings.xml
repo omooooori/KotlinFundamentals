@@ -47,7 +47,9 @@
     <string name="congratulations">Congratulations!</string>
     <string name="share">Share</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+    <!-- GuessWordGame -->
+    <string name="get_ready">Get ready to</string>
+    <string name="guess_word_title">guess the word!!</string>
+    <string name="play">play</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
