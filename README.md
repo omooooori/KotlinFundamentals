@@ -2,15 +2,16 @@
 
 ## Overview
 
-![2020-02-03_11h28_51](https://user-images.githubusercontent.com/34413373/73621260-ca2a2180-4678-11ea-98c0-56262f884821.png)
+<ul>
+  <li>DiceRollerApp</li>
+  <li>AboutMeApp</li>
+  <li>AndroidTriviaApp</li>
+  <li>GuessWordApp</li>
+ </ul>
 
 ## Description
 
-<ul>
-  <li>How to use ConstraintLayout.</li>
-  <li>How to use style property to UI component.</li>
-  <li>How to use Chain for ConstraintLayout.</li>
- </ul>
+Create a clone of Google code labo's app (Android Kotlin Fundamentals) and customize.
 
 [Google Code lab](https://codelabs.developers.google.com/codelabs/kotlin-android-training-constraint-layout/index.html?index=..%2F..android-kotlin-fundamentals#0)
 
