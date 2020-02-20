@@ -5,7 +5,13 @@
 <ul>
   <li>DiceRollerApp</li>
   <li>AboutMeApp</li>
+  
+  ![AboutMeApp](https://user-images.githubusercontent.com/34413373/74901148-48aaf100-53e5-11ea-9458-26094187887c.png)
+
   <li>AndroidTriviaApp</li>
+  
+  ![AndroidTriviaApp](https://user-images.githubusercontent.com/34413373/74901195-5eb8b180-53e5-11ea-81b4-4b0e2f1664d4.png)
+
   <li>GuessWordApp</li>
  </ul>
 
