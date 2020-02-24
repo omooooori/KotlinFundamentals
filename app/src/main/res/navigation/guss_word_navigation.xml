@@ -18,5 +18,19 @@
         android:id="@+id/game_destination"
         android:name="com.example.kotlinfundamentals.GuessWordGameFragment"
         android:label="fragment_guess_word_game"
-        tools:layout="@layout/fragment_guess_word_game" />
+        tools:layout="@layout/fragment_guess_word_game" >
+        <action
+            android:id="@+id/action_game_destination_to_score_destination"
+            app:destination="@id/score_destination" />
+    </fragment>
+    <fragment
+        android:id="@+id/score_destination"
+        android:name="com.example.kotlinfundamentals.ScoreFragment"
+        android:label="fragment_score"
+        tools:layout="@layout/fragment_score">
+        <argument
+            android:name="score"
+            android:defaultValue="0"
+            app:argType="integer"/>
+    </fragment>
 </navigation>
