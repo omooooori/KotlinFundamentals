@@ -12,7 +12,12 @@
         tools:layout="@layout/fragment_guess_word_title" >
         <action
             android:id="@+id/action_title_destination_to_game_destination"
-            app:destination="@id/game_destination" />
+            app:destination="@id/game_destination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left" />
     </fragment>
     <fragment
         android:id="@+id/game_destination"
@@ -21,13 +26,27 @@
         tools:layout="@layout/fragment_guess_word_game" >
         <action
             android:id="@+id/action_game_destination_to_score_destination"
-            app:destination="@id/score_destination" />
+            app:destination="@id/score_destination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@id/title_destination" />
     </fragment>
     <fragment
         android:id="@+id/score_destination"
         android:name="com.example.kotlinfundamentals.ScoreFragment"
         android:label="fragment_score"
         tools:layout="@layout/fragment_score">
+        <action
+            android:id="@+id/action_restart"
+            app:destination="@+id/game_destination"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_left"
+            app:popUpTo="@+id/title_destination" />
         <argument
             android:name="score"
             android:defaultValue="0"
