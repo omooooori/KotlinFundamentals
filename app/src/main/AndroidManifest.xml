@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <!-- <activity android:name=".MainActivity"> -->
 <!--         <activity android:name=".AboutMe.screens.AboutMeActivity">-->
-        <!-- <activity android:name=".DiceRollerActivity"> -->
+<!--         <activity android:name=".DiceRoller.screens.DiceRollerActivity">-->
         <!-- <activity android:name=".AndroidTrivia"> -->
         <activity android:name=".GuessWordMainActivity">
             <intent-filter>
