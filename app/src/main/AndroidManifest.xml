@@ -9,10 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <!-- <activity android:name=".MainActivity"> -->
-        <!-- <activity android:name=".AboutMeActivity"> -->
-        <!-- <activity android:name=".DiceRollerActivity"> -->
-        <!-- <activity android:name=".AndroidTrivia"> -->
+<!--        <activity android:name=".MainActivity"> -->
+<!--        <activity android:name=".AboutMe.screens.AboutMeActivity">-->
+<!--        <activity android:name=".DiceRoller.screens.DiceRollerActivity">-->
+<!--        <activity android:name=".AndroidTrivia">-->
         <activity android:name=".GuessWordMainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

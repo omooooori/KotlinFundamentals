@@ -6,10 +6,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.kotlinfundamentals.R
 
-/**
- * A simple [Fragment] subclass.
- */
 class AboutFragment : Fragment() {
 
     override fun onCreateView(
