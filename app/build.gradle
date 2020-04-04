@@ -41,4 +41,8 @@ dependencies {
     implementation "com.google.android.material:material:$supportlibVersion"
     //ViewModel
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+
+    // RecycleerView
+    implementation "com.android.support:recyclerview-$recyclerViewVersion"
+    implementation "com.android.support:cardview-$cardViewVersion"
 }

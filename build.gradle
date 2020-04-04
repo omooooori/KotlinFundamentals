@@ -6,6 +6,8 @@ buildscript {
         navigationVersion = '1.0.0-rc02'
         supportlibVersion = '1.0.0-rc03'
         navigationVersionSafeArgs = "2.3.0-alpha01"
+        recyclerViewVersion = "v7:28.0.0"
+        cardViewVersion = "v7:28.0.0'"
     }
     repositories {
         google()
