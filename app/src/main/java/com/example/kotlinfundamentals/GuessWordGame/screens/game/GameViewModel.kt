@@ -1,7 +1,8 @@
-package com.example.kotlinfundamentals
+package com.example.kotlinfundamentals.guesswordgame.screens.game
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
+
 
 class GameViewModel : ViewModel() {
 

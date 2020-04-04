@@ -1,18 +1,15 @@
-package com.example.kotlinfundamentals
-
+package com.example.kotlinfundamentals.androidtrivia.screens.title
 
 import android.os.Bundle
 import android.view.*
 import androidx.fragment.app.Fragment
-import android.widget.TextView
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import com.example.kotlinfundamentals.R
 import com.example.kotlinfundamentals.databinding.FragmentTitleBinding
 
-/**
- * A simple [Fragment] subclass.
- */
+
 class TitleFragment : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,

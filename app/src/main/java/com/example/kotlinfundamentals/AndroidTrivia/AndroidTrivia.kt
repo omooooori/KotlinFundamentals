@@ -1,4 +1,4 @@
-package com.example.kotlinfundamentals
+package com.example.kotlinfundamentals.androidtrivia
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
+import com.example.kotlinfundamentals.R
 import com.example.kotlinfundamentals.databinding.ActivityAndroidTriviaBinding
 
 

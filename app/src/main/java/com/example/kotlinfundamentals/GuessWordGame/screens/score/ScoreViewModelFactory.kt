@@ -1,8 +1,10 @@
-package com.example.kotlinfundamentals
+package com.example.kotlinfundamentals.guesswordgame.screens.score
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import com.example.kotlinfundamentals.guesswordgame.screens.score.ScoreViewModel
 import java.lang.IllegalArgumentException
+
 
 class ScoreViewModelFactory(private val finalScore: Int) : ViewModelProvider.Factory {
 

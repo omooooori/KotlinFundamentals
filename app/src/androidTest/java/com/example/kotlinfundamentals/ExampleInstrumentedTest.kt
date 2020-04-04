@@ -1,4 +1,4 @@
-package com.example.kotlinfundamental_colormyview
+package com.example.kotlinfundamentals
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

@@ -1,5 +1,4 @@
-package com.example.kotlinfundamentals
-
+package com.example.kotlinfundamentals.androidtrivia.screens.game
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +7,7 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import com.example.kotlinfundamentals.R
 import com.example.kotlinfundamentals.databinding.FragmentGameWonBinding
 
 

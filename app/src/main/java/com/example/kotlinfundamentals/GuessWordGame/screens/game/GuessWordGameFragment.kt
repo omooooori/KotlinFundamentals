@@ -1,5 +1,4 @@
-package com.example.kotlinfundamentals
-
+package com.example.kotlinfundamentals.guesswordgame.screens.game
 
 import android.os.Bundle
 import android.util.Log
@@ -10,8 +9,9 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
-import androidx.navigation.NavHost
 import androidx.navigation.fragment.NavHostFragment
+import com.example.kotlinfundamentals.GuessWordGameFragmentDirections
+import com.example.kotlinfundamentals.R
 import com.example.kotlinfundamentals.databinding.FragmentGuessWordGameBinding
 
 

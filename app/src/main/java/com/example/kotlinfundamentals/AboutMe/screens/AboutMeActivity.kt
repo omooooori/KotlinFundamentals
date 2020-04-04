@@ -14,7 +14,7 @@ class AboutMeActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.about_me_activity)
+        setContentView(R.layout.activity_about_me)
 
         findViewById<Button>(R.id.done_button).setOnClickListener {
             addNickname(it)
