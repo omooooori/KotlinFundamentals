@@ -1,10 +1,11 @@
-package com.example.kotlinfundamentals.DiceRoller.screens
+package com.example.kotlinfundamentals.diceroller.screens
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
 import com.example.kotlinfundamentals.R
+
 
 class DiceRollerActivity : AppCompatActivity() {
 
@@ -15,7 +16,7 @@ class DiceRollerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.dice_roller_activity)
+        setContentView(R.layout.activity_dice_roller)
 
         val buttonRoll: Button = findViewById(R.id.button_roll)
         buttonRoll.setOnClickListener { rollDice() }

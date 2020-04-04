@@ -1,7 +1,9 @@
-package com.example.kotlinfundamentals
+package com.example.kotlinfundamentals.guesswordgame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kotlinfundamentals.R
+
 
 class GuessWordMainActivity : AppCompatActivity() {
 

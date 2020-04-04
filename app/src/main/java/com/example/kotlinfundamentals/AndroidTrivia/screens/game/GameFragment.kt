@@ -1,5 +1,4 @@
-package com.example.kotlinfundamentals
-
+package com.example.kotlinfundamentals.androidtrivia.screens.game
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
+import com.example.kotlinfundamentals.R
 import com.example.kotlinfundamentals.databinding.FragmentGameBinding
+
 
 class GameFragment : Fragment() {
     data class Question(

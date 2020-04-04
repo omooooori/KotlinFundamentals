@@ -1,19 +1,16 @@
-package com.example.kotlinfundamentals.ColorMyView.screens
+package com.example.kotlinfundamentals.colormyview.screens
 
-import android.content.Context
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.view.inputmethod.InputMethodManager
-import android.widget.Button
-import android.widget.EditText
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.example.kotlinfundamentals.R
 import kotlinx.android.synthetic.main.activity_color_my_view.*
 
-class AboutMeActivity : AppCompatActivity() {
+
+class ColorMyViewActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

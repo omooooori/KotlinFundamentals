@@ -1,5 +1,4 @@
-package com.example.kotlinfundamentals
-
+package com.example.kotlinfundamentals.guesswordgame.screens.score
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProviders
+import com.example.kotlinfundamentals.R
+import com.example.kotlinfundamentals.ScoreFragmentArgs
 import com.example.kotlinfundamentals.databinding.FragmentScoreBinding
 
 

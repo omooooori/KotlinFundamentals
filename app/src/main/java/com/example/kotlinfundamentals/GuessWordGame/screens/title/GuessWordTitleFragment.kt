@@ -1,5 +1,4 @@
-package com.example.kotlinfundamentals
-
+package com.example.kotlinfundamentals.guesswordgame.screens.title
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.navigation.fragment.findNavController
+import com.example.kotlinfundamentals.R
 import com.example.kotlinfundamentals.databinding.FragmentGuessWordTitleBinding
 
 

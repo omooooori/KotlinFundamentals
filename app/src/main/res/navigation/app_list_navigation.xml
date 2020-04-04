@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_list_navigation"
+    app:startDestination="@id/fundamentalAppListFragment">
+
+    <fragment
+        android:id="@+id/fundamentalAppListFragment"
+        android:name="com.example.kotlinfundamentals.FundamentalAppListFragment"
+        tools:layout="@layout/fragment_fundamental_app_list" >
+        <action
+            android:id="@+id/action_fundamentalAppListFragment_to_aboutMeActivity"
+            app:destination="@id/aboutMeActivity" />
+        <action
+            android:id="@+id/action_fundamentalAppListFragment_to_androidTrivia"
+            app:destination="@id/androidTrivia" />
+        <action
+            android:id="@+id/action_fundamentalAppListFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+        <action
+            android:id="@+id/action_fundamentalAppListFragment_to_diceRollerActivity"
+            app:destination="@id/diceRollerActivity" />
+        <action
+            android:id="@+id/action_fundamentalAppListFragment_to_guessWordMainActivity"
+            app:destination="@id/guessWordMainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/aboutMeActivity"
+        android:name="com.example.kotlinfundamentals.AboutMe.screens.AboutMeActivity"
+        android:label="AboutMeActivity" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.kotlinfundamentals.MainActivity"
+        tools:layout="@layout/activity_color_my_view" />
+    <activity
+        android:id="@+id/diceRollerActivity"
+        android:name="com.example.kotlinfundamentals.DiceRoller.screens.DiceRollerActivity"
+        tools:label="DiceRollerActivity" />
+    <activity
+        android:id="@+id/androidTrivia"
+        android:name="com.example.kotlinfundamentals.AndroidTrivia"
+        tools:label="AndroidTrivia" />
+    <activity
+        android:id="@+id/guessWordMainActivity"
+        android:name="com.example.kotlinfundamentals.GuessWordMainActivity"
+        tools:layout="@layout/activity_guess_word_main" />
+</navigation>
